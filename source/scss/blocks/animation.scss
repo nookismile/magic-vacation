@@ -1,0 +1,224 @@
+@keyframes pulse {
+  0% {
+    visibility: hidden;
+    transform: scale(0);
+  }
+  100% {
+    visibility: visible;
+    transform: scale(1);
+  }
+}
+@keyframes fadeIn {
+  0% {
+    visibility: hidden;
+    opacity: 0;
+  }
+  100% {
+    visibility: visible;
+    opacity: 1;
+  }
+}
+@keyframes fadeLeft {
+  0% {
+    visibility: hidden;
+    opacity: 0;
+    transform: translateX(15px);
+  }
+  100% {
+    visibility: visible;
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+@keyframes widthLeft {
+  0% {
+    visibility: hidden;
+    opacity: 0;
+    transform: translateX(15px);
+  }
+  100% {
+    visibility: visible;
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+@keyframes showBottomFlamingo {
+  0% {
+    visibility: hidden;
+    opacity: 0;
+    transform: translateY(0) rotate(-38deg);
+  }
+  100% {
+    visibility: visible;
+    opacity: 1;
+    transform: translateY(-21%) rotate(0);
+  }
+}
+@keyframes showBottomSuitcase {
+  0% {
+    transform: translateY(0) scale(0);
+  }
+  60% {
+    transform: translateY(-24%) scale(1.2);
+  }
+  100% {
+    transform: translateY(-24%) scale(1);
+  }
+}
+@keyframes showLeafBlueOne {
+  0% {
+    visibility: visible;
+    transform: scale(1);
+    transform: rotate(0deg);
+  }
+  14.5% {
+    transform: rotate(10deg);
+  }
+  29% {
+    transform: rotate(0deg);
+  }
+  43.5% {
+    transform: rotate(5deg);
+  }
+  58% {
+    transform: rotate(0deg);
+  }
+  72.5% {
+    transform: rotate(3deg);
+  }
+  100% {
+    visibility: visible;
+    transform: rotate(0deg);
+  }
+}
+@keyframes showLeafBlueTwo {
+  0% {
+    visibility: visible;
+    transform: scale(1);
+    transform: rotate(0deg);
+  }
+  14.5% {
+    transform: rotate(-15deg);
+  }
+  29% {
+    transform: rotate(0deg);
+  }
+  43.5% {
+    transform: rotate(-10deg);
+  }
+  58% {
+    transform: rotate(0deg);
+  }
+  72.5% {
+    transform: rotate(-5deg);
+  }
+  100% {
+    visibility: visible;
+    transform: rotate(0deg);
+  }
+}
+@keyframes flamingoRotate {
+  0%, 100% {
+    transform: translateY(-21%) rotate(-2deg);
+  }
+  50% {
+    transform: translateY(-25%) rotate(2deg);
+  }
+}
+
+@keyframes elementRotateInLeft {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(-100%,0,0) rotate3d(0,0,1,-120deg);
+    -ms-transform: translate3d(-100%,0,0) rotate3d(0,0,1,-120deg);
+    transform: translate3d(-100%,0,0) rotate3d(0,0,1,-120deg);
+  }
+  100% {
+    -webkit-transform: none;
+    -ms-transform: none;
+    transform: none;
+    opacity: 1;
+  }
+}
+
+@keyframes elementRotateInRight {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(100%,0,0) rotate3d(0,0,1,120deg);
+    -ms-transform: translate3d(100%,0,0) rotate3d(0,0,1,120deg);
+    transform: translate3d(100%,0,0) rotate3d(0,0,1,120deg);
+  }
+  100% {
+    -webkit-transform: none;
+    -ms-transform: none;
+    transform: none;
+    opacity: 1;
+  }
+}
+
+@keyframes resultButton {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes flashing {
+  0% {
+    fill: #000;
+  }
+  100% {
+    fill: #fff;
+  }
+}
+
+@keyframes prize-opacity {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes prizesItemJourneys {
+  0% {
+    transform: translateX(100%);
+  }
+
+  100% {
+    transform: translateX(0);
+  }
+}
+
+@keyframes showTextToLeft {
+  from {
+    transform: translateX(3rem);
+    opacity: 0;
+  }
+
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes zoomOut {
+  from {
+    transform: scale(1.2)
+  }
+  to {
+    transform: scale(1)
+  }
+}
+
+@keyframes scaleResultTitle {
+  from {
+    transform: scale(1.1)
+  }
+  to {
+    transform: scale(1)
+  }
+}
